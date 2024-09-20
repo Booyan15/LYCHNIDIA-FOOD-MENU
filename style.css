@@ -22,8 +22,8 @@ body, html{
     padding: 12px 20px; /* Increased padding for a bigger button */
     border-radius: 8px; /* Rounded corners for the button */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
-    background-color: #f8f9fa; /* Light background color for the button */
-    border: 1px solid #ddd; /* Border to define the button edges */
+    background-color: #e7c34e; /* Light background color for the button */
+    border: 1px solid #d1a000; /* Border to define the button edges */
 }
 
 .dropdown-content {
