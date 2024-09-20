@@ -139,3 +139,29 @@ body, html{
         height: auto;
     }
 }
+
+/* Footer styling */
+.footer {
+    background-color: #eed584; /* Light gray background */
+    padding: 20px 0; /* Vertical padding */
+    text-align: center; /* Center text */
+    border-top: 1px solid #d3ac2e; /* Subtle border on top */
+    margin-top: 20px; /* Space above the footer */
+    position: relative; /* Position relative to ensure proper alignment */
+    bottom: 0; /* Align to the bottom of the container */
+    width: 100%; /* Full width of the container */
+}
+
+/* Ensure footer text is styled consistently */
+.footer p {
+    margin: 0; /* Remove default margin */
+    color: #747474; /* Gray color for text */
+    font-size: 0.9rem; /* Slightly smaller font size */
+}
+
+/* Responsive design for footer */
+@media (max-width: 768px) {
+    .footer p {
+        font-size: 0.8rem; /* Adjust font size on smaller screens */
+    }
+}
