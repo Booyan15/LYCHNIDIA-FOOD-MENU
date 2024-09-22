@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
               <a href="productsuk.html?id=${option.id}" class="card">
                   <img src="${option.img}" class="card-img" alt="${option.name}">
                   <div class="card-body">
-                      <h5 class="card-title">${option.name}</h5>
+                      <h5 class="card-title"><b>${option.name}</b></h5>
                   </div>
               </a>
           </div>

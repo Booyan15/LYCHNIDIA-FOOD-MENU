@@ -70,6 +70,13 @@ body, html{
     color: #333; /* Text color */
 }
 
+.fw-bold{
+    font-family: 'Gilroy', sans-serif;
+    font-size: 1.2rem; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Text color */
+}
+
 
 .ingredients {
     font-style: italic;
